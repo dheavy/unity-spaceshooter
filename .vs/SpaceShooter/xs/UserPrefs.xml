@@ -1,8 +1,15 @@
 ﻿<Properties StartupConfiguration="{31EA003C-1CF9-D946-A919-8AC5ED6BE76A}|">
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Player.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="6add0544-c31f-4da4-b3e6-0eeaa53f9998" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/SpawnManager.cs">
     <Files>
-      <File FileName="Assets/Scripts/Player.cs" Line="11" Column="17" />
+      <File FileName="Assets/Scripts/Player.cs" Line="47" Column="1" />
+      <File FileName="Assets/Scripts/Enemy.cs" Line="14" Column="45" />
+      <File FileName="Assets/Scripts/SpawnManager.cs" Line="37" Column="49" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -10,7 +17,7 @@
           <Node name="SpaceShooter" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="Player.cs" selected="True" />
+                <Node name="SpawnManager.cs" selected="True" />
               </Node>
             </Node>
           </Node>
@@ -26,10 +33,5 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="d285a224-0c6d-4559-a4e1-c7452bfceeb1" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
