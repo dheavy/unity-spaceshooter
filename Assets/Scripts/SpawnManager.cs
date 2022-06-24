@@ -16,6 +16,9 @@ public class SpawnManager : MonoBehaviour
     [SerializeField]
     private GameObject _enemyContainer;
 
+    [SerializeField]
+    private float _spawnDelay = 2.5f;
+
     private IEnumerator spawnCoroutine;
 
     private bool _canSpawn = true;
@@ -35,7 +38,7 @@ public class SpawnManager : MonoBehaviour
             GameObject newEmeny = Instantiate(_enemyPrefab, new Vector3(xPos, _enterScreenBoundary, 0), Quaternion.identity);
             newEmeny.transform.parent = _enemyContainer.transform;
 
-            yield return new WaitForSeconds(5f);
+            yield return new WaitForSeconds(_spawnDelay);
         }
     }
 
